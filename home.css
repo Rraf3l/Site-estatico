@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Cenze';
+    src: url('./design/OFL.txt') format('opentype'), url('./design/Cenze.ttf') format('truetype');
+    font-size: normal;
+    font-style: normal;
+}
+
+body{
+    background-image: url("../design/pinguWallpaper2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: xx-large;
+    text-align: center;
+    overflow: hidden;
+}
+
+h1{
+    font-family: 'Cenze';
+    position: absolute;
+    left: 9rem;
+    top: -1rem;
+    font-size: 5rem;
+    color: #011140;  
+}
+
+.voltar{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+button{
+    width: 90px;
+    height: 35px;
+    border-radius: 30px;
+    font-size: large;
+    background-color: #000000;
+    font-family: monospace;
+    color: #A0B3D9;
+    border: none;
+}

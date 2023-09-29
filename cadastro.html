@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="shortcut icon" href="../design/favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+    <div>
+        <h3>Registre-se no Grupo</h3>
+        <input type="text" placeholder="Crie um login" id="NovoLogin"><br>
+        <input type="password" placeholder="Crie uma senha" id="NovaSenha"><br>
+        <input type="password" placeholder="Repita sua senha" id="RepSenha"><br>
+        <p></p><button onclick="cadastro()">Cadastrar</button>
+    </div>
+    <button class = "voltar" onclick="voltar()">login</button>
+<script src="../script.js"></script>
+</body>
+</html>
+<script>
+    function voltar(){
+        window.location.href = "../index.html"
+    }
+</script>
